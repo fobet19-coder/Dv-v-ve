@@ -32,7 +32,7 @@ if not WindUI then
 end
 
 local screenGui = Instance.new("ScreenGui")
-screenGui.Name = "SZKHUB_GUI"
+screenGui.Name = "Sdks"
 screenGui.ResetOnSpawn = false
 screenGui.IgnoreGuiInset = true
 screenGui.Parent = player:WaitForChild("PlayerGui")
@@ -41,7 +41,7 @@ local Window = WindUI:CreateWindow({
     Title = "SZKHUB",
     Theme = "Dark",
     Background = "rbxassetid://123816899846427",
-    Author = "MADE BY SZKHUB",
+    Author = "MADE BY XD",
     Icon = "rbxassetid://123816899846427",
     Folder = "SZKHub_WindUI",
     Acrylic = false,
@@ -50,7 +50,7 @@ local Window = WindUI:CreateWindow({
     HideSearchBar = true,
     OpenButton = {
         Title = "OPEN SZKHUB",
-        Icon = "rbxassetid://123816899846427",
+        Icon = "rbxassetid://93931658690668",
         CornerRadius = UDim.new(0, 14),
         StrokeThickness = 1.1,
         Enabled = true,
